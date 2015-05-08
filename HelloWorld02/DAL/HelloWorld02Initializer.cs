@@ -7,7 +7,7 @@ using HelloWorld02.Models;
 
 namespace HelloWorld02.DAL
 {
-    public class HelloWorld02Initializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<HelloWorld02Context>
+    public class HelloWorld02Initializer : DropCreateDatabaseIfModelChanges<HelloWorld02Context>
     {
 
         protected override void Seed(HelloWorld02Context context)

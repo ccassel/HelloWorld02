@@ -1,10 +1,10 @@
 ﻿using HelloWorld02.Models;
 using System.Data.Entity;
-
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace HelloWorld02.DAL
 {
-    public class HelloWorld02Context : System.Data.Entity.DbContext
+    public class HelloWorld02Context : DbContext
     {
 
         public HelloWorld02Context()
@@ -12,12 +12,12 @@ namespace HelloWorld02.DAL
         {
         }
 
-        public System.Data.Entity.DbSet<Agent> Agents { get; set; }
-        public System.Data.Entity.DbSet<Product> Products { get; set; }
+        public DbSet<Agent> Agents { get; set; }
+        public DbSet<Product> Products { get; set; }
 
-        protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
     }
 }
