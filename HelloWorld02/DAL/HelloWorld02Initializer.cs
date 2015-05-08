@@ -7,14 +7,14 @@ using HelloWorld02.Models;
 
 namespace HelloWorld02.DAL
 {
-    public class HelloWorld02Initializer : System.Data.Entity. DropCreateDatabaseIfModelChanges<HelloWorld02Context>
+    public class HelloWorld02Initializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<HelloWorld02Context>
     {
 
         protected override void Seed(HelloWorld02Context context)
         {
             var agents = new List<Agent>
             {
-            new Agent{FirstName="Carson",LastName="Alexander"}, //EnrollmentDate=DateTime.Parse("2005-09-01")},
+            new Agent{FirstName="Carson",LastName="Alexander"}, 
             new Agent{FirstName="Meredith",LastName="Alonso"},
             new Agent{FirstName="Arturo",LastName="Anand"},
             new Agent{FirstName="Gytis",LastName="Barzdukas"},
