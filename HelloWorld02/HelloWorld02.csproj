@@ -143,6 +143,7 @@
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT.pubxml" />
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT-OBSOLETE.pubxml" />
+    <None Include="Properties\PublishProfiles\HelloWorld02-PROD.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
