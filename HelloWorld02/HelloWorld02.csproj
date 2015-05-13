@@ -141,7 +141,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\HelloWorld02-UAT.pubxml" />
+    <None Include="Properties\PublishProfiles\HelloWorld02-UAT.pubxml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT-OBSOLETE.pubxml" />
     <None Include="Properties\PublishProfiles\HelloWorld02-PROD.pubxml" />
     <None Include="Properties\PublishProfiles\hw02webfarmload1.pubxml" />
