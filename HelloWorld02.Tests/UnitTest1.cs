@@ -11,7 +11,7 @@ namespace HelloWorld02.Tests
         {
             string x = "Hello World";
             Assert.AreEqual("Hello World", x);
-//            Assert.AreEqual("Lutheran", "Evangelical");
+//            Assert.AreEqual("Good", "Evil");
         }
     }
 }

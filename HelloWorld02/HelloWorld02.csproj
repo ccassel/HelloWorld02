@@ -144,6 +144,7 @@
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT.pubxml" />
     <None Include="Properties\PublishProfiles\HelloWorld02-UAT-OBSOLETE.pubxml" />
     <None Include="Properties\PublishProfiles\HelloWorld02-PROD.pubxml" />
+    <None Include="Properties\PublishProfiles\hw02webfarmload1.pubxml" />
     <None Include="Properties\PublishProfiles\hw02webload1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -181,6 +182,7 @@
     <Content Include="Views\Product\Index.cshtml" />
     <None Include="Web.Load.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Web.PROD.config">
       <DependentUpon>Web.config</DependentUpon>
