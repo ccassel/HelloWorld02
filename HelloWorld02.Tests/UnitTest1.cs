@@ -10,8 +10,8 @@ namespace HelloWorld02.Tests
         public void TestMethod1()
         {
             string x = "Hello World";
-//            Assert.AreEqual("Hello World", x);
-            Assert.AreEqual("Good", "Evil");
+            Assert.AreEqual("Hello World", x);
+//            Assert.AreEqual("Good", "Evil");
         }
     }
 }
